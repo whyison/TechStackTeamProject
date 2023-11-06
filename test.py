@@ -12,7 +12,7 @@ for i in range(1, 18):
 for j in range(1, 22):
     
     url = 'https://www.codenary.co.kr/techstack/list?page={}'.format(j)
-    codenary_crawl.fetch_tech_stack(tech_info, url)
+    codenary_crawl.get_tech_info(tech_info, url)
     
 company = pd.DataFrame(company_info)
 company.columns = ['회사명', '회사 위치', '스택']
