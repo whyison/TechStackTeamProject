@@ -15,7 +15,7 @@ class Company(models.Model):
 # 직무 정보
 class JobPosition(models.Model):
     name = models.CharField(max_length=50, unique=True)           # 직무 이름
-    description = models.TextField(default='없음')                # 직무 설명
+    description = models.TextField(blank=True)                # 직무 설명
     tech_stacks = models.ManyToManyField('TechStack', related_name='job_positions') 
     # 기술스택 정보와 다대다 관계 정의
 
