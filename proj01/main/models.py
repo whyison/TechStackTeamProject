@@ -29,11 +29,11 @@ class JobPosition(models.Model):
 
     def __str__(self):
         return f'직무:{self.name}, 설명:{self.description}'
-        
+
 
 # 기술스택 정보
 class TechStack(models.Model):
-    name = models.CharField(max_length=50, unique=True)
+    name = models.CharField(max_length=50) #순위 매기기 위해서 중복값 허용
     type = models.CharField(max_length=50, blank=True) # 보류
     icon_url = models.URLField(blank=True)  # 선택사항
 
