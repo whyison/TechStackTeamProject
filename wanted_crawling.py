@@ -1,10 +1,6 @@
-import requests
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.actions.action_builder import ActionBuilder
-from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -15,6 +11,7 @@ def repeat_scroll(driver):
     scroll_location = driver.execute_script("return document.body.scrollHeight")
 
     while True:
+        
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 
         time.sleep(2)
@@ -26,6 +23,7 @@ def repeat_scroll(driver):
         
         else:
             scroll_location = driver.execute_script("return document.body.scrollHeight")
+            
 
 jobs = {'하드웨어 엔지니어' : 672, '빅데이터 엔지니어' : 1025, '보안 엔지니어' : 671, '프로덕트 매니저' : 876, '크로스플랫폼 앱 개발자' : 10111, 'DBA' : 10231, '블록체인 플랫폼 엔지니어' : 1027,
        'ERP전문가' : 10230, 'PHP 개발자' : 893, '영상,음성 엔지니어' : 896, '.NET 개발자' : 661, '웹 퍼블리셔' : 939, 
@@ -52,15 +50,24 @@ for job in jobs:
         url = 'https://www.wanted.co.kr'+link
         
         driver.get(url)
+        time.sleep(2)
+        
+        elem = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/div[2]/hr')
+        height = driver.execute_script("return arguments[0].getBoundingClientRect().top;", elem)
+        
+        driver.execute_script(f"window.scrollTo(0, {height});")
+
+        time.sleep(2)
         
         tech_stacks = driver.find_elements(By.CLASS_NAME, 'JobDescription_JobDescription_skill_wrapper__9EdFE')
         company_name = driver.title.split(' ')[0][1:-1]
-        company_location = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[2]/span[2]'))).text
+        company_location = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[2]/span[2]')
+        print(company_location.text)
         tech = ''
         for tech_stack in tech_stacks:
             tech += tech_stack.text
             
         tech = tech.split('\n')
-
+            
         
         
