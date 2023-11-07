@@ -3,14 +3,22 @@ from django.db import models
 # Create your models here.
 # 기업 정보
 class Company(models.Model):
-    name = models.CharField(max_length=50, unique=True)            # 기업명
-    sido = models.CharField(max_length=50, default='시도') # 기업 위치 (시도)
-    sigg = models.CharField(max_length=50, default='시군구')     # 기업 위치(시군구)
+    name = models.CharField(max_length=50)            # 기업명
+    sido = models.CharField(max_length=50) # 기업 위치 (시도)
+    sigg = models.CharField(max_length=50)     # 기업 위치(시군구)
     job_positions = models.ManyToManyField('JobPosition', related_name='companies') 
     # 직무 정보와 다대다 관계 정의
     
     def __str__(self):
         return f'기업: {self.name}'
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=["name","sido","sigg"],
+                name="unique fields for each company"
+            )
+        ]
 
 # 직무 정보
 class JobPosition(models.Model):
