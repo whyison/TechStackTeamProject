@@ -54,8 +54,6 @@ for job in jobs:
         driver.get(url)
         
         tech_stacks = driver.find_elements(By.CLASS_NAME, 'JobDescription_JobDescription_skill_wrapper__9EdFE')
-        #company_location = WebDriverWait(driver, 10).until(visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[2]/span[2]'))).text
-        #company_name = driver.find_element(By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/section[2]/div[1]/h6/a').text
         company_name = driver.title.split(' ')[0][1:-1]
         company_location = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div[3]/div[1]/div[1]/div/div[2]/section[2]/div[2]/span[2]'))).text
         tech = ''
@@ -63,13 +61,6 @@ for job in jobs:
             tech += tech_stack.text
             
         tech = tech.split('\n')
-            
-            
-        print(company_name)
-        
-        
- 
-
 
         
         
