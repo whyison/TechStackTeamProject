@@ -11,23 +11,21 @@ def load_json_data(file_name):
     with open(file_path, 'r', encoding='utf-8') as json_file:
         return json.load(json_file)
 
-# 기술스택&직무 에 데이터를 적재하는 함수
-def load_tech_stacks_and_job_postions(tech_stacks_data, job_positions_data):
-    for tech_stack, job_position in zip(tech_stacks_data, job_positions_data):
-        # 중복을 허용해서 생성
-        ts = TechStack.objects.create(name=tech_stack['name'],
-                                    type=tech_stack['type'])
-        jp, _ = JobPosition.objects.get_or_create(name=job_position['name'])
-        jp.tech_stacks.add(ts) # 직무에 기술스택을 연결함
-
-# 기업 데이터를 적재하는 함수
-def load_companies(companies_data):
-    for company in companies_data:
-        comp, _ = Company.objects.get_or_create(name=company['name'],
+def load_companies_and_tech_stacks_and_job_positions(companies_data, tech_stacks_data, job_positions_data):
+    for company, job_position, tech_stack in zip(companies_data, job_positions_data, tech_stacks_data):
+        jp, job_position_created = JobPosition.objects.get_or_create(name=job_position['name'])
+        comp, company_created = Company.objects.get_or_create(name=company['name'],
                                                 sido=company['sido'],
-                                                sigg=company['sigg'] )
-        job_position = JobPosition.objects.get(name=company['job_positions']) # 직무 name이 유니크이기 때문에 get 가능
-        comp.job_positions.add(job_position) # 기업에 직무를 연결함
+                                                sigg=company['sigg'])
+        tech_stack_exist = TechStack.objects.filter(name=tech_stack['name'], type=tech_stack['type']).count() # tech_stack 존재여부
+
+        if tech_stack_exist and not company_created and not job_position_created: #중복을 방지하기 위해서 기존에 세 데이터가 존재하는지 확인
+            continue
+        else:
+            ts = TechStack.objects.create(name=tech_stack['name'], type=tech_stack['type'])
+            ts.companies.add(comp) #기업과 기술스택 연결
+            ts.job_positions.add(jp) #직무와 기술스택 연결
+
 
 
 # 메인 함수: 모든 데이터를 적재하는 함수
@@ -39,6 +37,5 @@ def main_load_function():
     companies_data = load_json_data('companies_data.json')
     
     # 데이터를 적재
-    load_tech_stacks_and_job_postions(tech_stacks_data, job_positions_data)
-    load_companies(companies_data)
+    load_companies_and_tech_stacks_and_job_positions(companies_data, tech_stacks_data, job_positions_data)
 
