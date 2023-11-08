@@ -4,8 +4,6 @@ from django.db import transaction
 from main.models import *
 
 
-# 크롤링한 데이터
-# file_names = ['companies_data.json', 'job_positions_data.json', 'tech_stacks_data.json']
 
 # 파일에서 JSON 데이터를 읽어오는 함수
 def load_json_data(file_name):
