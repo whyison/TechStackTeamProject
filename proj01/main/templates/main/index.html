@@ -16,24 +16,37 @@
         {% block content %}
         <div class="container">
             <div class="banner">
-                <img src="{% static 'images/logo.png' %}" alt="logo" class="logo_img" />
+                <img src="{% static 'images/logo.svg' %}" alt="logo" class="logo_img" />
                 <p>신입 개발자를 위한 기술 스택 랭킹 정보</p>
                 <h1>최근 기업들이 신입에게 요구하는<br>기술 스택을 확인해 보세요!</h1>
             </div>
             <div class="search">
                 <form action="{% url 'result_view_name' %}" method="POST">
                     {% csrf_token %}
-                    <!-- 다른 입력 필드들과 제출 버튼을 포함 -->
-                    <input type="dropbox" name="job_positions" />
-                    <input type="dropbox" name="location" />
+                    <!-- form 만들어서 수정하기
+                    {{ form.job_position }}
+                    {{ form.location }}
+                    -->
+                    <select name="job_position">
+                        <option value="" disabled selected>직무</option>
+                        {% for job_position in job_positions %}
+                            <option value="{{ job_position.name }}">{{ job_position.name }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="sido">
+                        <option value="" disabled selected>시도</option>
+                        {% for sido in sido_list %}
+                            <option value="{{ sido.name }}">{{ sido.name }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="sigg">
+                        <option value="" disabled selected>시군구</option>
+                        {% for sigg in sigg_list %}
+                            <option value="{{ sigg.name }}">{{ sigg.name }}</option>
+                        {% endfor %}
+                    </select>
                     <button type="submit">검색하기</button>
                 </form>
-                
-                <!--
-                <input type="radio" name="job_positions" id="" value="서버/백엔드 개발자">
-                <input type="radio" name="sido" id="sido3" value="경기">
-                <input type="radio" name="sigg" id="sigg1" value="성남시">
-                -->
             </div>
         </div>    
         {% endblock content %}
