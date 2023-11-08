@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+/* styles for index.html */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    flex: 7; /* 화면의 비율 */
+    background-image: url('../images/main-banner.svg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: #F3FBFE;
+    display: flex;
+    flex-direction: column; /* 요소를 세로로 배치 */
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    font-family: 'Nanum Gothic', sans-serif; 
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 42px;
+    color: #333333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.search {
+    flex: 3; /* 화면의 비율 */
+    background-color: #ffffff; /* 아래 부분의 배경색을 지정합니다. */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search form {
+    display: flex;
+    width: 840px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search select {
+    align-items : center;
+    padding: 12px 20px 12px 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff; 
+    border: 1px solid #DDDDDD; 
+    border-radius: 5px; 
+    max-width: 320px; 
+    width: 100%;
+    margin: 10px;
+    z-index : 1;
+    appearance: none; /* 기본 스타일 제거 */
+    background-image: url('../images/arrow.svg'); /* 화살표 이미지 경로 설정 */
+    background-repeat: no-repeat;
+    background-position: right 15px center; /* 화살표 위치 설정 */
+}
+
+/* 화살표 이미지 크기 및 여백 조정 */
+.search select::-ms-expand {
+    display: none; /* IE에서 기본 화살표 숨기기 */
+}
+
+/* 화살표 이미지 크기 및 여백 조정 */
+.search select {
+    -webkit-appearance: none; /* 웹킷 브라우저에서 기본 스타일 제거 */
+}
+
+.search button {
+    align-items : center;
+    padding: 12px 16px 12px 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #1371FF; 
+    border-radius: 5px; 
+    border: 1px solid #1371FF; 
+    width: 170px;
+    min-width: 170px; 
+    margin: 10px;
+    z-index : 1;
+    overflow: hidden;
+}
+
+.logo_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        flex-direction: column; /* 요소를 세로로 배치합니다 */
+        align-items: flex-start; /* 요소를 왼쪽으로 정렬합니다 */
+    }
+
+    select, button {
+        margin: 5px 0; /* 각각의 요소에 여백을 추가합니다 */
+        width: 100%; /* 요소의 너비를 100%로 설정합니다 */
+    }
+}
+
+/* styles for result.html */
+
+nav {
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 수평, 수직, 블러, 그림자 색상 */
+    background-color: #fff; /* 배경색 설정 (선택 사항) */
+    display: flex;
+    justify-content: space-between; /* 로고와 슬로건 간격을 최대화 */
+    align-items: center; /* 로고 및 슬로건을 수직 중앙 정렬 */
+    padding: 20px 10% 20px 10%; /* 네비게이션 내부 여백 조정 */
+}
+
+.logo img {
+    max-width: 100px; /* 로고 이미지의 최대 너비 설정 (조정 가능) */
+    height: auto; /* 비율 유지를 위해 높이 자동 조정 */
+}
+
+.slogan p {
+    font-family: 'Nanum Gothic', sans-serif; 
+    font-size: 12px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.img_3d {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px; /* 위쪽 여백 추가 */
+    margin-bottom: 40px; /* 아래쪽 여백 추가 */
+}
+
+.inline h3 {
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    line-height: 34px;
+    padding-bottom: 40px;
+}
+
+.inline p {
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1371FF;
+    display: inline;
+}
+
+
+.re-button {
+    display: block;
+    width: 180px;
+    background-image: url('../images/re.svg'); /* 아이콘 이미지 경로 설정 */
+    background-repeat: no-repeat;
+    background-position: left 32px center; /* 아이콘을 왼쪽에 배치 */
+    background-color: #1371ff; /* 배경 색상 설정 */
+    border-radius: 5px; 
+    color: #fff; /* 텍스트 색상 설정 */
+    padding: 10px; /* 내용과 버튼 사이 여백 설정 */
+    padding-left: 30px;
+    border: none;
+    text-align: center; /* 버튼 내부 텍스트를 가운데 정렬 */
+    text-decoration: none; /* 기본 링크 텍스트 스타일 제거 */
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .slogan p {
+        display: none; /* 화면이 작을 때 슬로건 숨김 */
+    }
+    nav {
+        justify-content: center;
+    }
+}
+

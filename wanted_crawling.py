@@ -75,8 +75,10 @@ for job in jobs:
             tech += tech_stack.text
             
         tech = tech.split('\n')
+
         
         for stack in tech:
                 company_info.append([job, company_name, company_location.text, stack])
         
-        
+df = pd.DataFrame(company_info)
+df.to_csv(company)
