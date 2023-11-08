@@ -1,9 +1,54 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+        <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Barun+Gothic:400,700&display=swap">
+        <title>{% block title %}Techrank.{% endblock title %}</title>
     </head>
     <body>
-        <p>{{ context }}</p>
+        {% block content %}
+        <div class="container">
+            <div class="banner">
+                <img src="{% static 'images/logo.svg' %}" alt="logo" class="logo_img" />
+                <p>신입 개발자를 위한 기술 스택 랭킹 정보</p>
+                <h1>최근 기업들이 신입에게 요구하는<br>기술 스택을 확인해 보세요!</h1>
+            </div>
+            <div class="search">
+                <form action="{% url 'result_view_name' %}" method="POST">
+                    {% csrf_token %}
+                    <!-- form 만들어서 수정하기
+                    {{ form.job_position }}
+                    {{ form.location }}
+                    -->
+                    <select name="job_position">
+                        <option value="" disabled selected>직무</option>
+                        {% for job_position in job_positions %}
+                            <option value="{{ job_position.name }}">{{ job_position.name }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="sido">
+                        <option value="" disabled selected>시도</option>
+                        {% for sido in sido_list %}
+                            <option value="{{ sido.name }}">{{ sido.name }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="sigg">
+                        <option value="" disabled selected>시군구</option>
+                        {% for sigg in sigg_list %}
+                            <option value="{{ sigg.name }}">{{ sigg.name }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit">검색하기</button>
+                </form>
+            </div>
+        </div>    
+        {% endblock content %}
     </body>
 </html>
