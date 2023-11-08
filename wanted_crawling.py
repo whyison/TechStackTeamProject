@@ -30,6 +30,8 @@ jobs = {'하드웨어 엔지니어' : 672, '빅데이터 엔지니어' : 1025, '
        'CTO,Chief Technology Officer' : 795, '그래픽스 엔지니어' : 898, 'BI 엔지니어' : 1022, 'VR 엔지니어': 10112, 
        '루비온레일즈 개발자' : 894, 'CIO,Chief Information Officer' : 793}
 
+company_info = []
+
 for job in jobs:
     url = 'https://www.wanted.co.kr/wdlist/518/{}?country=kr&job_sort=job.latest_order&years=0&locations=all'.format(jobs[job])
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -68,6 +70,8 @@ for job in jobs:
             tech += tech_stack.text
             
         tech = tech.split('\n')
-            
+        
+        for stack in tech:
+                company_info.append([job, company_name, company_location.text, stack])
         
         
