@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+/* styles for index.html */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    flex: 7.5; /* 화면의 비율 */
+    background-image: url('../images/main-banner.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: #F3FBFE;
+    display: flex;
+    flex-direction: column; /* 요소를 세로로 배치 */
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    font-family: 'Nanum Gothic', sans-serif; 
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 42px;
+    color: #333333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.search {
+    flex: 2.5; /* 화면의 비율 */
+    background-color: #ffffff; /* 아래 부분의 배경색을 지정합니다. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* styles for result.html */
+
+nav {
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 수평, 수직, 블러, 그림자 색상 */
+    background-color: #fff; /* 배경색 설정 (선택 사항) */
+    display: flex;
+    justify-content: space-between; /* 로고와 슬로건 간격을 최대화 */
+    align-items: center; /* 로고 및 슬로건을 수직 중앙 정렬 */
+    padding: 20px 10% 20px 10%; /* 네비게이션 내부 여백 조정 */
+}
+
+.logo img {
+    max-width: 100px; /* 로고 이미지의 최대 너비 설정 (조정 가능) */
+    height: auto; /* 비율 유지를 위해 높이 자동 조정 */
+}
+
+.slogan p {
+    font-family: 'Nanum Gothic', sans-serif; 
+    font-size: 12px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.img_3d {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px; /* 위쪽 여백 추가 */
+    margin-bottom: 40px; /* 아래쪽 여백 추가 */
+}
+
+.inline {
+    display: inline;
+}
+
+.inline h3 {
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.inline p {
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1371FF;
+}
+
+@media screen and (max-width: 400px) {
+    .slogan p {
+        display: none; /* 화면이 작을 때 슬로건 숨김 */
+    }
+    nav {
+        justify-content: center;
+    }
+}
+
