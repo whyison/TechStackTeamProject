@@ -7,3 +7,18 @@ def index(request):
 def result_view(request) :
     if request.method == 'POST' :
         return render(request, 'main/result.html', {})
+
+
+
+
+
+
+
+
+
+
+def temp_index(request):
+    return render(request, 'main/temp_index.html', {})
+
+def temp_result(request) :
+    return render(request, 'main/temp_result.html', {})
