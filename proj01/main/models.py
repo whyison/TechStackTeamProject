@@ -9,7 +9,7 @@ class Company(models.Model):
     sigg = models.CharField(max_length=50)  # 기업 위치(시군구)
 
     def __str__(self):
-        return f'기업: {self.name}'
+        return f'[기업]{self.name} [주소]{self.sido} {self.sigg}'
 
     class Meta:
         constraints = [
@@ -27,7 +27,7 @@ class JobPosition(models.Model):
     description = models.TextField(blank=True)  # 직무 설명
 
     def __str__(self):
-        return f'직무:{self.name}, 설명:{self.description}'
+        return f'[직무]{self.name} [설명]{self.description}'
 
 
 # 기술스택 정보
@@ -38,7 +38,7 @@ class TechStack(models.Model):
     job_positions = models.ManyToManyField('JobPosition', related_name='tech_stacks')  # 직무 정보와 다대다 관계 정의
 
     def __str__(self):
-        return f'기술: {self.name}, 유형:{self.type}'
+        return f'[기술]{self.name} [분류]{self.type}'
 
 
 # 지역 정보
