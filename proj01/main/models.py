@@ -20,6 +20,7 @@ class Company(models.Model):
         ]
 
 
+
 # 직무 정보
 class JobPosition(models.Model):
     name = models.CharField(max_length=50, unique=True)  # 직무 이름
@@ -40,7 +41,10 @@ class TechStack(models.Model):
         return f'기술: {self.name}, 유형:{self.type}'
 
 
-
-
-
-
+# 지역 정보
+class Location(models.Model):
+    name = models.CharField(max_length=50)
+    parent = models.ForeignKey('self', null=True, blank=True, on_delete=models.CASCADE, limit_choices_to={'parent': None})
+    
+    def __str__(self):
+        return self.name

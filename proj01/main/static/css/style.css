@@ -147,6 +147,16 @@ nav {
     margin-bottom: 0;
 }
 
+
+@media screen and (max-width: 400px) {
+    .slogan p {
+        display: none; /* 화면이 작을 때 슬로건 숨김 */
+    }
+    nav {
+        justify-content: center;
+    }
+}
+
 .img_3d {
     max-width: 100%;
     max-height: 100%;
@@ -187,19 +197,16 @@ nav {
     padding: 10px; /* 내용과 버튼 사이 여백 설정 */
     padding-left: 30px;
     border: none;
-    text-align: center; /* 버튼 내부 텍스트를 가운데 정렬 */
+    text-align: center; /* 버튼 내부 텍스트를 가운데ß 정렬 */
     text-decoration: none; /* 기본 링크 텍스트 스타일 제거 */
     margin: 0 auto;
     margin-top: 80px;
 }
 
-
-@media screen and (max-width: 400px) {
-    .slogan p {
-        display: none; /* 화면이 작을 때 슬로건 숨김 */
-    }
-    nav {
-        justify-content: center;
-    }
+.result_top3 {
+    justify-content: center;
 }
 
+.result_graph {
+    justify-content: center;
+}

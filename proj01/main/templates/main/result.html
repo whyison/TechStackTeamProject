@@ -17,7 +17,7 @@
         {% block content %}
         <nav>
             <div class="logo">
-                <a href="{% url 'main' %}"><img src="{% static 'images/logo.svg' %}" alt="logo"></a>
+                <a href="{% url 'main:main' %}"><img src="{% static 'images/logo.svg' %}" alt="logo"></a>
             </div>
             <div class="slogan">
                 <p>신입 개발자를 위한 기술 스택 랭킹 정보</p>
@@ -27,14 +27,14 @@
             <div>
                 <img src="{% static 'images/3dobj.svg' %}" alt="" class="img_3d">
                 <span class="inline">
-                    <h3><p>{{ selected_job }}</p> 신입 <p>{{ selected_location }}</p> 를 위한<br>기술 스택 트렌드 보고서</h3>
+                    <h3><p>{{ selected_sido }} {{ selected_sigg }}</p> 신입 <p>{{ selected_job_position }}</p> 를 위한<br>기술 스택 트렌드 보고서</h3>
                 </span>
             </div>
             
             <div class="result_top3"></div>
             <div class="result_graph"></div>
             
-            <a href="{% url 'main' %}" class="re-button">다시 검색하기</a>
+            <a href="{% url 'main:main' %}" class="re-button">다시 검색하기</a>
         </div>
         {% endblock content %}
     </body>
