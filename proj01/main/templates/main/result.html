@@ -31,14 +31,19 @@
                 </span>
                 <div class="result_summary">
                     <span>🧑‍💻 <p>{{ selected_job_position }}란?</p> {{ selected_job_description }}</span>
-                    <span>🔍 현재 진행 중인 <p>{{ selected_sido }} {{ selected_sigg }} 지역</p> 채용 공고 수는 <p>개</p></span>
+                    <span>🔍 현재 진행 중인 <p>{{ selected_sido }} {{ selected_sigg }} 지역</p> 채용 공고 수는 <p>{{ job_positing_counts }}개</p></span>
                 </div>
             </div>
             <!--<hr class="line"/>-->
             <div class="result">
-                <div class="result_graph"></div>
+                <!-- 차트 HTML을 반복적으로 렌더링 -->
+                {% for chart_html in charts_html %}
+                <div class="result_graph">
+                    <div>{{ chart_html|safe }}</div>
+                </div>
+                {% endfor %}
             </div>
-            
+
             <a href="{% url 'main:main' %}" class="re-button">다시 검색하기</a>
         </div>
         {% endblock content %}

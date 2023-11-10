@@ -199,6 +199,7 @@ nav {
     text-align: center;
     padding: 22px 50px 20px 50px;
     margin: 0 auto;
+    margin-bottom: 80px;
     border: 1px solid #eeeeee;
     background-color: #f9f9f9;
     display: inline-block; 
@@ -242,6 +243,7 @@ nav {
     text-decoration: none; /* 기본 링크 텍스트 스타일 제거 */
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 100px;
 }
 
 .result_graph {
