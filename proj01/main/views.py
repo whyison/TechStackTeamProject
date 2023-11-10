@@ -13,7 +13,7 @@ def index(request):
     context = {
         'job_positions': job_positions,
         'location_sido': location_sido,
-        'location_sigg': location_sido,
+        'location_sigg': location_sigg,
     }
 
     return render(request, 'main/index.html', context)
@@ -33,8 +33,12 @@ def result_view(request) :
         selected_sido = request.POST.get('location_sido')
         selected_sigg = request.POST.get('location_sigg')
 
-    # 선택한 직무에 따른 결과 처리 : 직무별 시각화 그래프
+        if selected_sido == None :
+            selected_sido = '전국'
+        if selected_sigg == None :
+            selected_sigg = ''
 
+    # 선택한 직무에 따른 결과 처리 : 직무별 시각화 그래프
 
         context = {
             'selected_job_position' : selected_job_position,
