@@ -27,18 +27,21 @@
             <div>
                 <img src="{% static 'images/3dobj.svg' %}" alt="" class="img_3d">
                 <span class="inline">
-                    <h3><p>{{ selected_job }}</p> 신입 <p>{{ selected_location }}</p> 를 위한<br>기술 스택 트렌드 보고서</h3>
+                    <h3><p>{{ sido }} {{ sigg }}</p> 신입 <p>{{ job_position.name }}</p> 를 위한<br>기술 스택 트렌드 보고서</h3>
                 </span>
             </div>
 
             <!-- 제대로 선택되어서 result로 넘어오는지 출력해봄-->
-            <p>{{ job_position }}</p>
-            <p>{{ sido }}</p>
-            <p>{{ sigg }}</p>
             
             <div class="result_top3"></div>
             <div class="result_graph"></div>
             
+                <!-- 차트 HTML을 반복적으로 렌더링 -->
+            {% for chart_html in charts_html %}
+                <div>{{ chart_html|safe }}</div>
+            {% endfor %}
+
+
             <a href="{% url 'main:temp_index' %}" class="re-button">다시 검색하기</a>
         </div>
         {% endblock content %}
