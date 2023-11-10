@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from .models import *
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponseRedirect
 import json
-
+from django.urls import reverse
+from django.contrib import messages
 
 # Create your views here.
 def index(request):
@@ -33,6 +34,9 @@ def result_view(request) :
         selected_sido = request.POST.get('location_sido')
         selected_sigg = request.POST.get('location_sigg')
 
+        if selected_job_position is None:
+            messages.error(request, '직무를 선택해주세요.')
+            return HttpResponseRedirect(reverse('main:main'))
         if selected_sido == None :
             selected_sido = '전국'
         if selected_sigg == None :

@@ -19,6 +19,13 @@
                 <p>신입 개발자를 위한 기술 스택 랭킹 정보</p>
                 <h1>최근 기업들이 신입에게 요구하는<br>기술 스택을 확인해 보세요!</h1>
             </div>
+            <div class="error_message">
+                {% if messages %}
+                {% for message in messages %}
+                <h2>{{ message }}</h2>
+                {% endfor %}
+                {% endif %}
+            </div>
             <div class="search">
                 <form action="{% url 'main:result_view' %}" method="POST">
                     {% csrf_token %}
