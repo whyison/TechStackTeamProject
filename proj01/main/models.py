@@ -31,7 +31,7 @@ class JobPosition(models.Model):
 
 # 기술스택 정보
 class TechStack(models.Model):
-    name = models.CharField(max_length=50, unique=True)  # 순위 매기기 위해서 중복값 허용
+    name = models.CharField(max_length=50)  # 순위 매기기 위해서 중복값 허용
     type = models.CharField(max_length=50, blank=True)
     companies = models.ManyToManyField('Company', related_name='tech_stacks')  # 기업 정보와 다대다 관계 정의
     job_positions = models.ManyToManyField('JobPosition', related_name='tech_stacks')  # 직무 정보와 다대다 관계 정의

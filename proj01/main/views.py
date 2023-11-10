@@ -52,8 +52,7 @@ def temp_result(request):
 
     sido = request.POST['sido']
     sigg = request.POST['sigg']
-    '''
-    <QuerySet [{'type': '프로그래밍 언어', 'count': 23}, {'type': '라이브러리', 'count': 10}, {'type': '개 발 도구', 'count': 10}, {'type': '운영체제', 'count': 9}, {'type': '네트워크', 'count': 9}, {'type': ' 프레임워크', 'count': 8}, {'type': '인공지능 및 블록체인 관련 개념', 'count': 8}, {'type': '인프라', 'count': 7}, {'type': '데이터베이스', 'count': 7}, {'type': '데브옵스', 'count': 7}, {'type': '하드웨어', 'count': 6}, {'type': '기타', 'count': 6}, {'type': '프로그래밍 관련 기술 및 개념', 'count': 5}, {'type': '테스트 도구', 'count': 4}, {'type': '개발 방법론 및 프로세스', 'count': 3}, {'type': '빅데이터', 'count': 2}, {'type': '보안 및 인증', 'count': 1}]>'''
+
     tech_type_counts=tech_stacks.values('type').annotate(count=Count('name')).order_by('-count')[:5]    
 
     charts_html = []  # 차트 HTML을 저장할 리스트
@@ -64,8 +63,18 @@ def temp_result(request):
         tech_stacks_by_cls = tech_stacks.filter(type=cls)
         #-----
         data = [{'스택': ts.name, '개수': tech_stacks.filter(name=ts.name).count()} for ts in tech_stacks_by_cls]
+
+        unique_data = {}
+        for item in data:
+            stack_name = item['스택']
+            count = item['개수']
+            if stack_name not in unique_data:
+                unique_data[stack_name] = count
+
+        unique_data_list = [{'스택': key, '개수': value} for key, value in unique_data.items()]
+
         # '개수' 필드에 따라 내림차순으로 정렬
-        sorted_data = sorted(data, key=lambda x: x['개수'], reverse=True)
+        sorted_data = sorted(unique_data_list, key=lambda x: x['개수'], reverse=True)
 
         # 상위 5개 요소 선택
         top_5_data = sorted_data[:5]
@@ -73,7 +82,7 @@ def temp_result(request):
         # Plotly 차트 생성
         fig = px.pie(data_frame=top_5_data, values='개수', names='스택', title=f"{job_position.name} 직무의 {cls} 분류 TOP5")
         fig.update_traces(hole=.3)
-        fig.update_traces(textposition='outside', textinfo='label+percent+value', textfont_size=20, textfont_color="black")
+        fig.update_traces(textposition='inside', textinfo='label+percent+value', textfont_size=17, textfont_color="white")
 
         # 차트를 HTML 문자열로 변환하고 리스트에 추가
         charts_html.append(fig.to_html(full_html=False))
