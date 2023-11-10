@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-        <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
+        <link rel="icon" href="{% static 'images/favicon.svg' %}">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Barun+Gothic:400,700&display=swap">
@@ -29,10 +29,15 @@
                 <span class="inline">
                     <h3><p>{{ selected_sido }} {{ selected_sigg }}</p> 신입 <p>{{ selected_job_position }}</p> 를 위한<br>기술 스택 트렌드 보고서</h3>
                 </span>
+                <div class="result_summary">
+                    <span>🧑‍💻 <p>{{ selected_job_position }}란?</p> {{ selected_job_description }}</span>
+                    <span>🔍 현재 <p>{{ selected_sido }} {{ selected_sigg }} 지역</p> 채용 공고 수는 <p>개</p></span>
+                </div>
             </div>
-            
-            <div class="result_top3"></div>
-            <div class="result_graph"></div>
+            <!--<hr class="line"/>-->
+            <div class="result">
+                <div class="result_graph"></div>
+            </div>
             
             <a href="{% url 'main:main' %}" class="re-button">다시 검색하기</a>
         </div>

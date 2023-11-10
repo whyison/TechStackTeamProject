@@ -24,19 +24,31 @@ def get_sigg_list(request):
     return JsonResponse(list(sigg_list), safe=False)
 
 
+# 결과 페이지
 def result_view(request) :
+
+    # 선택한 지역의 신입 개발 직무 텍스트 대입
     if request.method == 'POST' :
         selected_job_position = request.POST.get('job_position')
         selected_sido = request.POST.get('location_sido')
         selected_sigg = request.POST.get('location_sigg')
 
+    # 선택한 직무에 따른 결과 처리 : 직무별 시각화 그래프
+
+
         context = {
             'selected_job_position' : selected_job_position,
             'selected_sido' : selected_sido,
             'selected_sigg' : selected_sigg,
+            'selected_job_description' : JobPosition.objects.filter(name = selected_job_position).values('description')[0]['description']
         }
 
         return render(request, 'main/result.html', context)
+
+
+
+
+
 
 
 def temp_index(request):
