@@ -32,7 +32,7 @@ def get_sigg_list(request):
 
 # 결과 페이지
 def result_view(request) :
-
+    
     # 선택한 지역의 신입 개발 직무 텍스트 대입
     if request.method == 'POST' :
         selected_job_position = request.POST.get('job_position')
@@ -42,10 +42,12 @@ def result_view(request) :
         if selected_job_position is None:
             messages.error(request, '직무를 선택해주세요.')
             return HttpResponseRedirect(reverse('main:main'))
+        
         if selected_sido == None :
             selected_sido = '전국'
         if selected_sigg == None :
             selected_sigg = ''
+    
 
     if selected_sido == '전국':
         job_positing_counts = TechStack.objects.filter(
@@ -94,10 +96,24 @@ def result_view(request) :
         top_5_data = sorted_data[:5]
 
         # Plotly 차트 생성
-        fig = px.pie(data_frame=top_5_data, values='개수', names='스택', title=f"{job_position.name} 직무의 {cls} 분류 TOP5")
+        if len(sorted_data) < 5 : 
+            fig = px.pie(data_frame=sorted_data, values='개수', names='스택', title=f"{cls}")
+        else :
+            fig = px.pie(data_frame=top_5_data, values='개수', names='스택', title=f"{cls} TOP5")
         fig.update_traces(hole=.3)
-        fig.update_traces(textposition='inside', textinfo='label+percent+value', textfont_size=17,
-                          textfont_color="white")
+        fig.update_traces(textposition='inside', textinfo='label+percent', textfont_size=14, textfont_color="white")
+
+        fig.update_layout(
+            title_x=0.5,  # 제목 가운데 정렬
+            showlegend=True,  # 범례 표시 여부
+            legend=dict(
+                orientation="h",  # 범례 가로 방향
+                yanchor="bottom",  # 범례 기준점
+                y=-0.3,  # 범례 위치
+                xanchor="center",  # 범례 중앙 정렬
+                x=0.5,  # 범례 중앙 정렬
+            ),
+        )
 
         # 차트를 HTML 문자열로 변환하고 리스트에 추가
         charts_html.append(fig.to_html(full_html=False))
@@ -107,12 +123,13 @@ def result_view(request) :
         'selected_job_position': selected_job_position,
         'selected_sido': selected_sido,
         'selected_sigg': selected_sigg,
-        'selected_job_description': JobPosition.objects.filter(name=selected_job_position).values('description')[0][
-            'description'],
+        'selected_job_description': JobPosition.objects.filter(name=selected_job_position).values('description')[0]['description'],
         'job_positing_counts' : job_positing_counts
     }
 
     return render(request, 'main/result.html', context)
+
+
 
 def temp_index(request):
     #데이터베이스에서 직무 가져오기 -> flat=True를 이용해 리스트로 가져옴

@@ -248,4 +248,10 @@ nav {
 
 .result_graph {
     justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 30px;
+    border : 1px solid #DDDDDD;
+    border-radius: 10px;
 }
