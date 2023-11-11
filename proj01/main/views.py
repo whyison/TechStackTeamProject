@@ -118,6 +118,7 @@ def result_view(request) :
                     xanchor="center",  # 범례 중앙 정렬
                     x=0.5,  # 범례 중앙 정렬
                 ),
+                autosize=True,
             )
 
             # 차트를 HTML 문자열로 변환하고 리스트에 추가
