@@ -124,7 +124,25 @@ html, body {
         margin: 5px 0; /* 각각의 요소에 여백을 추가합니다 */
         width: 100%; /* 요소의 너비를 100%로 설정합니다 */
     }
+
+    .search {
+        flex: 4;
+    }
+
+    .banner {
+        flex: 6;
+    }
+    
+    .banner p {
+        font-size: 12px;
+    }
+    
+    .banner h1 {
+        font-size: 22px;
+    }
+    
 }
+
 
 /* styles for result.html */
 
@@ -152,15 +170,6 @@ nav {
     margin-bottom: 0;
 }
 
-
-@media screen and (max-width: 400px) {
-    .slogan p {
-        display: none; /* 화면이 작을 때 슬로건 숨김 */
-    }
-    nav {
-        justify-content: center;
-    }
-}
 
 .img_3d {
     max-width: 100%;
@@ -198,6 +207,7 @@ nav {
     color: #666666;
     text-align: center;
     padding: 22px 50px 20px 50px;
+    max-width: 90%;
     margin: 0 auto;
     margin-bottom: 80px;
     border: 1px solid #eeeeee;
@@ -254,4 +264,35 @@ nav {
     padding: 30px;
     border : 1px solid #DDDDDD;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .slogan p {
+        display: none; /* 화면이 작을 때 슬로건 숨김 */
+    }
+    nav {
+        justify-content: center;
+    }
+
+    .result_graph {
+        justify-content: center;
+        max-width: 90%;
+        min-width: 320px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        padding: 20px 10px 20px 10px;
+        border : 1px solid #DDDDDD;
+        border-radius: 10px;
+    }
+
+
+    .inline {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .inline h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }

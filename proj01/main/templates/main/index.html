@@ -21,10 +21,10 @@
             </div>
 
             <div class="search">
-                <form action="{% url 'main:result_view' %}" method="POST" onsubmit="return validateForm()">
+                <form action="{% url 'main:result_view' %}" method="POST" onsubmit="return validateForm()" id="search_form">
                     {% csrf_token %}
                     <select name="job_position" id="job_position">
-                        <option value="" disabled selected>직무</option>
+                        <option value="" disabled selected id="form_job">직무</option>
                         {% for job_position in job_positions %}
                             <option value="{{ job_position.name }}">{{ job_position.name }}</option>
                         {% endfor %}
