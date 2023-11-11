@@ -19,17 +19,11 @@
                 <p>신입 개발자를 위한 기술 스택 랭킹 정보</p>
                 <h1>최근 기업들이 신입에게 요구하는<br>기술 스택을 확인해 보세요!</h1>
             </div>
-            <div class="error_message">
-                {% if messages %}
-                {% for message in messages %}
-                <h2>{{ message }}</h2>
-                {% endfor %}
-                {% endif %}
-            </div>
+
             <div class="search">
-                <form action="{% url 'main:result_view' %}" method="POST">
+                <form action="{% url 'main:result_view' %}" method="POST" onsubmit="return validateForm()">
                     {% csrf_token %}
-                    <select name="job_position">
+                    <select name="job_position" id="job_position">
                         <option value="" disabled selected>직무</option>
                         {% for job_position in job_positions %}
                             <option value="{{ job_position.name }}">{{ job_position.name }}</option>
@@ -54,5 +48,14 @@
         </div>    
         {% endblock content %}
         <script src="{% static 'js/search_script.js' %}"></script>
+        <script>
+            // Django에서 전달한 메시지가 있다면 얼럿 창으로 표시
+            {% if messages %}
+                {% for message in messages %}
+                    var errorMessage = '{{ message }}';
+                    alert(errorMessage);
+                    {% endfor %}
+            {% endif %}
+        </script>
     </body>
 </html>

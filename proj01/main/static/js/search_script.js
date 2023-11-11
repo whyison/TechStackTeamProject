@@ -2,6 +2,7 @@
 const sidoSelect = document.getElementById('sido');
 const siggSelect = document.getElementById('sigg');
 
+
 // 시/도 선택 상자가 변경될 때 실행할 함수를 정의
 sidoSelect.addEventListener('change', function () {
     const selectedSido = sidoSelect.value;
