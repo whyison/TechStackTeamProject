@@ -5,3 +5,4 @@ from .models import *
 admin.site.register(Company)
 admin.site.register(JobPosition)
 admin.site.register(TechStack)
+admin.site.register(Location)

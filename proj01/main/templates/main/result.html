@@ -6,8 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-        <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
+        <link rel="icon" href="{% static 'images/favicon.ico' %}">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Barun+Gothic:400,700&display=swap">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -17,7 +16,7 @@
         {% block content %}
         <nav>
             <div class="logo">
-                <a href="{% url 'main' %}"><img src="{% static 'images/logo.svg' %}" alt="logo"></a>
+                <a href="{% url 'main:main' %}"><img src="{% static 'images/logo.svg' %}" alt="logo"></a>
             </div>
             <div class="slogan">
                 <p>신입 개발자를 위한 기술 스택 랭킹 정보</p>
@@ -27,14 +26,24 @@
             <div>
                 <img src="{% static 'images/3dobj.svg' %}" alt="" class="img_3d">
                 <span class="inline">
-                    <h3><p>{{ selected_job }}</p> 신입 <p>{{ selected_location }}</p> 를 위한<br>기술 스택 트렌드 보고서</h3>
+                    <h3><p>{{ selected_sido }} {{ selected_sigg }}</p> 신입 <p>{{ selected_job_position }}</p>를 위한<br>기술 스택 트렌드 보고서</h3>
                 </span>
+                <div class="result_summary">
+                    <span>🧑‍💻 <p>{{ selected_job_position }}란?</p> {{ selected_job_description }}</span>
+                    <span>🔍 현재 진행 중인 <p>{{ selected_sido }} {{ selected_sigg }}</p> 채용 공고는 <p>{{ job_positing_counts }}개</p> 있어요!</span>
+                </div>
             </div>
-            
-            <div class="result_top3"></div>
-            <div class="result_graph"></div>
-            
-            <a href="{% url 'main' %}" class="re-button">다시 검색하기</a>
+            <!--<hr class="line"/>-->
+            <div class="result">
+                <!-- 차트 HTML을 반복적으로 렌더링 -->
+                {% for chart_html in charts_html %}
+                <div class="result_graph">
+                    <div>{{ chart_html|safe }}</div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <a href="{% url 'main:main' %}" class="re-button">다시 검색하기</a>
         </div>
         {% endblock content %}
     </body>
