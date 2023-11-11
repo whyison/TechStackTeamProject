@@ -19,12 +19,8 @@ def load_data(companies_data, tech_stacks_data, job_positions_data):
                                                                         defaults={
                                                                             'description': job_position['description']
                                                                         })
-            comp, company_created = Company.objects.get_or_create(
-                                                            name=company['name'],
-                                                            defaults={
-                                                                'sido' : company['sido'],
-                                                                'sigg' : company['sigg']
-                                                            })
+            comp, company_created = Company.objects.get_or_create(name=company['name'], sido=company['sido'],
+                                                                  sigg=company['sigg'])
 
             ts= TechStack.objects.create(name=tech_stack['name'], type=tech_stack['type'])
             ts.companies.add(comp)
