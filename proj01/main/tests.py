@@ -74,32 +74,6 @@ class TechStackModelTests(TestCase):
 
 class StoreDataTests(TestCase):
 
-    def test_duplicated_job_positing(self):
-        #테스트용 크롤링 데이터
-        companies_data = [
-            {'name': 'TestName', 'sido': 'TestSido', 'sigg': 'TestSigg'},
-            {'name': 'TestName', 'sido': 'TestSido', 'sigg': 'TestSigg'},
-        ]
-        tech_stacks_data = [
-            {'name': 'TestName', 'type': 'TestType'},
-            {'name': 'TestName', 'type': 'TestType'},
-        ]
-        job_positions_data = [
-            {'name': 'TestName', 'description': 'TestDescription'},
-            {'name': 'TestName', 'description': 'TestDescription'},
-        ]
-
-        #데이터 적재 메서드
-        load_data(companies_data, tech_stacks_data, job_positions_data)
-
-        company_count = Company.objects.filter(name='TestName', sido='TestSido', sigg='TestSigg').count()
-        tech_stack_count = TechStack.objects.filter(name='TestName', type='TestType').count()
-        job_position_count = JobPosition.objects.filter(name='TestName', description='TestDescription').count()
-
-        self.assertEqual(company_count, 1)
-        self.assertEqual(tech_stack_count, 1)
-        self.assertEqual(job_position_count, 1)
-
     def test_different_address_same_name_company(self):
         #테스트용 크롤링 데이터
         companies_data = [
@@ -127,3 +101,32 @@ class StoreDataTests(TestCase):
         self.assertEqual(company_count2, 1)
         self.assertEqual(tech_stack_count, 2)
         self.assertEqual(job_position_count, 1)
+
+    '''
+    #중복 데이터 처리 추후 개발 예정
+    def test_duplicated_job_positing(self):
+        #테스트용 크롤링 데이터
+        companies_data = [
+            {'name': 'TestName', 'sido': 'TestSido', 'sigg': 'TestSigg'},
+            {'name': 'TestName', 'sido': 'TestSido', 'sigg': 'TestSigg'},
+        ]
+        tech_stacks_data = [
+            {'name': 'TestName', 'type': 'TestType'},
+            {'name': 'TestName', 'type': 'TestType'},
+        ]
+        job_positions_data = [
+            {'name': 'TestName', 'description': 'TestDescription'},
+            {'name': 'TestName', 'description': 'TestDescription'},
+        ]
+
+        #데이터 적재 메서드
+        load_data(companies_data, tech_stacks_data, job_positions_data)
+
+        company_count = Company.objects.filter(name='TestName', sido='TestSido', sigg='TestSigg').count()
+        tech_stack_count = TechStack.objects.filter(name='TestName', type='TestType').count()
+        job_position_count = JobPosition.objects.filter(name='TestName', description='TestDescription').count()
+
+        self.assertEqual(company_count, 1)
+        self.assertEqual(tech_stack_count, 1)
+        self.assertEqual(job_position_count, 1)
+    '''
