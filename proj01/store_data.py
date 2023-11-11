@@ -8,7 +8,7 @@ already_run = False
 
 # 파일에서 JSON 데이터를 읽어오는 함수
 def load_json_data(file_name):
-    file_path = os.path.join('data/new', file_name)
+    file_path = os.path.join('data', file_name)
     with open(file_path, 'r', encoding='utf-8') as json_file:
         return json.load(json_file)
 
