@@ -26,11 +26,11 @@
 <summary> 결과 페이지 시각화</summary>
 <div markdown="1">
 
-![Alt text](%EC%BA%A1%EC%B2%98_2023_11_12_17_10_45_91.png)
-![Alt text](%EC%BA%A1%EC%B2%98_2023_11_12_17_10_51_251.png)
-![Alt text](%EC%BA%A1%EC%B2%98_2023_11_12_17_10_56_859.png)
-![Alt text](%EC%BA%A1%EC%B2%98_2023_11_12_17_11_03_490.png)
-![Alt text](%EC%BA%A1%EC%B2%98_2023_11_12_17_11_07_984.png)
+![Alt text](/images/%EC%BA%A1%EC%B2%98_2023_11_12_17_10_45_91.png)
+![Alt text](/images/%EC%BA%A1%EC%B2%98_2023_11_12_17_10_51_251.png)
+![Alt text](/images/%EC%BA%A1%EC%B2%98_2023_11_12_17_10_56_859.png)
+![Alt text](/images/%EC%BA%A1%EC%B2%98_2023_11_12_17_11_03_490.png)
+![Alt text](/images/%EC%BA%A1%EC%B2%98_2023_11_12_17_11_07_984.png)
 </div>
 </details>
 
@@ -58,21 +58,21 @@
 <br>
 
 ## 참여자 정보 및 각 역할
-![Alt text](image.png)
+![Alt text](/images/image.png)
 
 <br>
 
 ## 활용 기술 및 프레임워크
-![Alt text](framework.png)
+![Alt text](/images/framework.png)
 
 <br>
 
 ## 소프트웨어 아키텍처 및 ERD
 ### 소프트웨어 아키텍처
-![Alt text](software_architecture.png)
+![Alt text](/images/software_architecture.png)
 
 ### ERD
-![Alt text](erd.png)
+![Alt text](/images/erd.png)
 
 <br>
 
@@ -91,13 +91,13 @@
 
 ## 개발 협업 과정
 #### 노션을 사용하여 스탠드업 미팅의 내용을 기록하고, 이를 팀원들과 공유
-![Alt text](<notion.png>)
+![Alt text](</images/notion.png>)
 
 #### 슬랙을 활용하여 실시간 의사소통과 빠른 피드백 반영
-![Alt text](<slack.png>)
+![Alt text](</images/slack.png>)
 
 #### Trello를 활용하여 프로젝트의 진행 상황을 팀원들과 공유
-![Alt text](<trello.png>)
+![Alt text](</images/trello.png>)
 
 #### 팀원들과 함께 GitHub를 사용하여 프로젝트 진행
 
