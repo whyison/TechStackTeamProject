@@ -43,27 +43,20 @@ def result_view(request) :
             messages.error(request, '직무를 선택해주세요.')
             return HttpResponseRedirect(reverse('main:main'))
         
-        if selected_sido == None :
-            selected_sido = '전국'
-        if selected_sigg == None :
-            selected_sigg = ''
+        if selected_sido == None :selected_sido = '전국'
+        if selected_sigg == None :selected_sigg = ''
     
 
     if selected_sido == '전국':
-        job_positing_counts = TechStack.objects.filter(
-            job_positions__name=selected_job_position,
-        ).count()
+        job_positing_counts = TechStack.objects.filter(job_positions__name=selected_job_position,).count()
+        
     elif selected_sigg == '':
-        job_positing_counts = TechStack.objects.filter(
-            companies__sido=selected_sido,
-            job_positions__name=selected_job_position,
-        ).count()
+        job_positing_counts = TechStack.objects.filter(companies__sido=selected_sido,
+                                                    job_positions__name=selected_job_position,).count()
     else:
-        job_positing_counts = TechStack.objects.filter(
-            companies__sido=selected_sido,
-            companies__sigg=selected_sigg,
-            job_positions__name=selected_job_position,
-        ).count()
+        job_positing_counts = TechStack.objects.filter(companies__sido=selected_sido,
+                                                    companies__sigg=selected_sigg,
+                                                    ob_positions__name=selected_job_position,).count()
 
     # 선택한 직무에 따른 결과 처리 : 직무별 시각화 그래프
     try:
@@ -79,10 +72,9 @@ def result_view(request) :
         charts_html = []  # 차트 HTML을 저장할 리스트
 
         for tech_stack in tech_type_counts.values('type'):
-
             cls = tech_stack['type']
             tech_stacks_by_cls = tech_stacks.filter(type=cls)
-            # -----
+
             data = [{'스택': ts.name, '개수': tech_stacks.filter(name=ts.name).count()} for ts in tech_stacks_by_cls]
 
             unique_data = {}

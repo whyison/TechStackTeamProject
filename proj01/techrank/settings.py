@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'proj01.urls'
+ROOT_URLCONF = 'techrank.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'proj01.wsgi.application'
+WSGI_APPLICATION = 'techrank.wsgi.application'
 
 
 # Database
