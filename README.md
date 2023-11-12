@@ -20,8 +20,8 @@
 <br>
 
 ## 최종 결과물
-![Alt text](result1.png)
-![Alt text](result2.png)
+![Alt text](/images/result1.png)
+![Alt text](/images/result2.png)
 <details>
 <summary> 결과 페이지 시각화</summary>
 <div markdown="1">
