@@ -1,6 +1,6 @@
 [
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -52,7 +52,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -88,7 +88,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -124,7 +124,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
@@ -140,7 +140,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -164,7 +164,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -176,11 +176,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -208,7 +208,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -320,7 +320,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -340,7 +340,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
@@ -352,7 +352,7 @@
         "type": "운영체제"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -380,7 +380,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -388,7 +388,7 @@
         "type": "운영체제"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -424,7 +424,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -608,7 +608,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -692,7 +692,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -708,7 +708,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -716,7 +716,7 @@
         "type": "운영체제"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -784,7 +784,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -820,7 +820,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -868,7 +868,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -892,7 +892,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -944,7 +944,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -956,7 +956,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -980,7 +980,7 @@
         "type": "인프라"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -992,7 +992,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1012,7 +1012,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1064,7 +1064,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -1096,7 +1096,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -1104,7 +1104,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -1152,7 +1152,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -1184,7 +1184,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1216,7 +1216,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1240,7 +1240,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1272,7 +1272,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -1280,7 +1280,7 @@
         "type": "운영체제"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1296,7 +1296,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -1344,7 +1344,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1472,7 +1472,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -1500,7 +1500,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -1528,7 +1528,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -1560,7 +1560,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -1588,7 +1588,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -1636,7 +1636,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1760,7 +1760,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1812,11 +1812,11 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1828,7 +1828,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -1852,7 +1852,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -1876,7 +1876,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -1884,7 +1884,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -1928,7 +1928,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -1996,11 +1996,11 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2024,7 +2024,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2088,7 +2088,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2140,7 +2140,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -2168,7 +2168,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2212,7 +2212,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2224,7 +2224,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -2232,11 +2232,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -2268,7 +2268,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -2300,7 +2300,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -2316,7 +2316,7 @@
         "type": "인프라"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -2340,7 +2340,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2420,7 +2420,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2472,7 +2472,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -2596,7 +2596,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -2620,11 +2620,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2672,7 +2672,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -2688,7 +2688,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -2704,7 +2704,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -2720,11 +2720,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -2800,7 +2800,7 @@
         "type": "인프라"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -2816,7 +2816,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -2872,7 +2872,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2940,11 +2940,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -2972,7 +2972,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3012,11 +3012,11 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3056,7 +3056,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -3072,7 +3072,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3096,7 +3096,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3108,7 +3108,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
@@ -3116,7 +3116,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -3144,7 +3144,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3176,7 +3176,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -3188,7 +3188,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3196,7 +3196,7 @@
         "type": "운영체제"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -3312,7 +3312,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3424,7 +3424,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3496,7 +3496,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3532,11 +3532,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3604,7 +3604,7 @@
         "type": "운영체제"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -3616,7 +3616,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3688,7 +3688,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3736,7 +3736,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3772,7 +3772,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3800,7 +3800,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3812,7 +3812,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -3852,7 +3852,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3864,7 +3864,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -3892,7 +3892,7 @@
         "type": "인프라"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3900,11 +3900,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -3944,7 +3944,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3956,7 +3956,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -3968,11 +3968,11 @@
         "type": "인프라"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4028,7 +4028,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -4124,11 +4124,11 @@
         "type": "데이터베이스"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -4168,11 +4168,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -4228,7 +4228,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -4236,11 +4236,11 @@
         "type": "프레임워크"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4252,7 +4252,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4264,11 +4264,11 @@
         "type": "인프라"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4352,7 +4352,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -4416,7 +4416,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -4436,7 +4436,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -4480,7 +4480,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -4492,7 +4492,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -4504,11 +4504,11 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4524,7 +4524,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4536,7 +4536,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -4560,7 +4560,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4600,7 +4600,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -4640,11 +4640,11 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -4668,11 +4668,11 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4724,7 +4724,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -4828,7 +4828,7 @@
         "type": "운영체제"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -4956,7 +4956,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -5000,7 +5000,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -5040,7 +5040,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -5072,7 +5072,7 @@
         "type": "인프라"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -5108,11 +5108,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -5168,7 +5168,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5224,11 +5224,11 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -5264,7 +5264,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -5280,7 +5280,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5288,7 +5288,7 @@
         "type": "운영체제"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -5368,7 +5368,7 @@
         "type": "인프라"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -5440,7 +5440,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -5448,7 +5448,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -5472,7 +5472,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -5492,7 +5492,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -5504,7 +5504,7 @@
         "type": "인프라"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -5516,7 +5516,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -5540,7 +5540,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -5564,7 +5564,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5580,7 +5580,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5648,7 +5648,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -5676,7 +5676,7 @@
         "type": "인프라"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5684,7 +5684,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -5696,7 +5696,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -5720,7 +5720,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -5760,7 +5760,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5804,11 +5804,11 @@
         "type": "인프라"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "빅데이터"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5832,7 +5832,7 @@
         "type": "운영체제"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -5884,11 +5884,11 @@
         "type": "데이터베이스"
     },
     {
-        "name": "amazon dynamodb",
+        "name": "Amazon DynamoDB",
         "type": "데이터베이스"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -5908,7 +5908,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "빅데이터"
     },
     {
@@ -5952,7 +5952,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -5968,7 +5968,7 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -6016,7 +6016,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -6040,7 +6040,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -6060,11 +6060,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "빅데이터"
     },
     {
@@ -6224,7 +6224,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -6260,7 +6260,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -6308,7 +6308,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -6332,11 +6332,11 @@
         "type": "인프라"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -6372,7 +6372,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -6520,7 +6520,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -6576,7 +6576,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -6604,7 +6604,7 @@
         "type": "인프라"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -6752,7 +6752,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -6820,7 +6820,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "fastlane",
+        "name": "Fastlane",
         "type": "개발 도구"
     },
     {
@@ -6884,7 +6884,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7020,7 +7020,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7224,7 +7224,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7240,7 +7240,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7252,7 +7252,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "네트워크"
     },
     {
@@ -7396,7 +7396,7 @@
         "type": "운영체제"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -7540,7 +7540,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7608,7 +7608,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -7696,7 +7696,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7704,7 +7704,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7756,7 +7756,7 @@
         "type": "개발 도구"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7776,7 +7776,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -7828,7 +7828,7 @@
         "type": "운영체제"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -7876,7 +7876,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -7988,7 +7988,7 @@
         "type": "운영체제"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -8016,7 +8016,7 @@
         "type": "운영체제"
     },
     {
-        "name": "rxswift",
+        "name": "RxSwift",
         "type": "라이브러리"
     },
     {
@@ -8088,7 +8088,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -8108,7 +8108,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -8132,7 +8132,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -8288,7 +8288,7 @@
         "type": "개발 도구"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -8336,11 +8336,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "빅데이터"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -8372,11 +8372,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "빅데이터"
     },
     {
@@ -8516,7 +8516,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8592,7 +8592,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8624,7 +8624,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8732,7 +8732,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8756,7 +8756,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8772,7 +8772,7 @@
         "type": "개발 도구"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -8792,7 +8792,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8800,7 +8800,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -8884,7 +8884,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8912,7 +8912,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8984,7 +8984,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -8992,7 +8992,7 @@
         "type": "네트워크"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -9016,7 +9016,7 @@
         "type": "운영체제"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -9056,7 +9056,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9096,7 +9096,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9108,7 +9108,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9148,7 +9148,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9164,7 +9164,7 @@
         "type": "운영체제"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9176,7 +9176,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -9188,7 +9188,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9196,7 +9196,7 @@
         "type": "빅데이터"
     },
     {
-        "name": "redis",
+        "name": "Redis",
         "type": "데이터베이스"
     },
     {
@@ -9212,7 +9212,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9248,7 +9248,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -9264,7 +9264,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9280,11 +9280,11 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9308,7 +9308,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -9396,7 +9396,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9456,7 +9456,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9488,7 +9488,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9504,7 +9504,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9532,7 +9532,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9552,11 +9552,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pandas",
+        "name": "Pandas",
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9564,7 +9564,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -9652,7 +9652,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -9672,11 +9672,11 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9768,11 +9768,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -9784,7 +9784,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -9852,7 +9852,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -9948,7 +9948,7 @@
         "type": "빅데이터"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -9960,7 +9960,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10000,7 +10000,7 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -10048,7 +10048,7 @@
         "type": "인프라"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -10216,7 +10216,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10236,7 +10236,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10256,15 +10256,15 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10296,7 +10296,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10316,7 +10316,7 @@
         "type": "네트워크"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10332,7 +10332,7 @@
         "type": "네트워크"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -10360,7 +10360,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10412,7 +10412,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -10420,7 +10420,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10472,7 +10472,7 @@
         "type": "빅데이터"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -10484,7 +10484,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10500,7 +10500,7 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -10524,7 +10524,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -10552,7 +10552,7 @@
         "type": "네트워크"
     },
     {
-        "name": "postgresql",
+        "name": "PostgreSQL",
         "type": "데이터베이스"
     },
     {
@@ -10632,7 +10632,7 @@
         "type": "테스트 도구"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -10664,7 +10664,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -10776,7 +10776,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -10800,7 +10800,7 @@
         "type": "테스트 도구"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -10820,7 +10820,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "프로그래밍 언어"
     },
     {
@@ -10868,11 +10868,11 @@
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
@@ -10892,7 +10892,7 @@
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
@@ -10932,7 +10932,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -10948,7 +10948,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "프로그래밍 언어"
     },
     {
@@ -10956,7 +10956,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -10972,7 +10972,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11008,7 +11008,7 @@
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
@@ -11032,7 +11032,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11044,11 +11044,11 @@
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
@@ -11072,7 +11072,7 @@
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -11084,7 +11084,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
@@ -11104,7 +11104,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -11168,7 +11168,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11180,7 +11180,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "하드웨어"
     },
     {
@@ -11200,7 +11200,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11216,7 +11216,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11224,7 +11224,7 @@
         "type": "기타"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11232,7 +11232,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -11240,7 +11240,7 @@
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11252,15 +11252,15 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "프로그래밍 언어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11276,7 +11276,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "프로그래밍 언어"
     },
     {
@@ -11320,7 +11320,7 @@
         "type": "운영체제"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11328,7 +11328,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -11340,7 +11340,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11352,7 +11352,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11372,7 +11372,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
@@ -11380,11 +11380,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11392,11 +11392,11 @@
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11424,7 +11424,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -11436,11 +11436,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11464,7 +11464,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "프로그래밍 언어"
     },
     {
@@ -11472,7 +11472,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -11480,11 +11480,11 @@
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11492,7 +11492,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11512,11 +11512,11 @@
         "type": "하드웨어"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11532,7 +11532,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11544,7 +11544,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11580,7 +11580,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11592,7 +11592,7 @@
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -11608,11 +11608,11 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -11624,15 +11624,15 @@
         "type": "기타"
     },
     {
-        "name": "pci proxy",
+        "name": "PCI Proxy",
         "type": "개발 도구"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11672,7 +11672,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11684,7 +11684,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11696,7 +11696,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11712,11 +11712,11 @@
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -11736,7 +11736,7 @@
         "type": "운영체제"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11756,7 +11756,7 @@
         "type": "인프라"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11772,11 +11772,11 @@
         "type": "운영체제"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11796,7 +11796,7 @@
         "type": "네트워크"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11808,11 +11808,11 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -11824,7 +11824,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
@@ -11884,7 +11884,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -11912,7 +11912,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -12008,7 +12008,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -12016,7 +12016,7 @@
         "type": "운영체제"
     },
     {
-        "name": "rpa",
+        "name": "RPA",
         "type": "테스트 도구"
     },
     {
@@ -12068,7 +12068,7 @@
         "type": "운영체제"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -12092,7 +12092,7 @@
         "type": "운영체제"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -12124,7 +12124,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -12212,7 +12212,7 @@
         "type": "운영체제"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -12300,7 +12300,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -12348,11 +12348,11 @@
         "type": "라이브러리"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -12404,7 +12404,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -12516,7 +12516,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -12540,7 +12540,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -12560,7 +12560,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -12568,7 +12568,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -12628,7 +12628,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "labview",
+        "name": "LabVIEW",
         "type": "기타"
     },
     {
@@ -12680,7 +12680,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "verilog",
+        "name": "Verilog",
         "type": "프로그래밍 언어"
     },
     {
@@ -12712,7 +12712,7 @@
         "type": "개발 도구"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -12792,7 +12792,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -12840,7 +12840,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -12860,11 +12860,11 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -12908,7 +12908,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -12916,7 +12916,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -12980,7 +12980,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -12988,7 +12988,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -13020,7 +13020,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -13044,7 +13044,7 @@
         "type": "기타"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13084,7 +13084,7 @@
         "type": "운영체제"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13100,11 +13100,11 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "개발 도구"
     },
     {
@@ -13116,7 +13116,7 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -13124,7 +13124,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -13224,7 +13224,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13256,7 +13256,7 @@
         "type": "운영체제"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13284,7 +13284,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -13300,7 +13300,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -13364,7 +13364,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -13440,7 +13440,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -13468,7 +13468,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13544,7 +13544,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13568,7 +13568,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "GitHub",
+        "name": "Github",
         "type": "데브옵스"
     },
     {
@@ -13640,7 +13640,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -13736,7 +13736,7 @@
         "type": "운영체제"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -13744,7 +13744,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13756,7 +13756,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -13768,7 +13768,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13780,7 +13780,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "labview",
+        "name": "LabVIEW",
         "type": "기타"
     },
     {
@@ -13836,7 +13836,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -13948,7 +13948,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -13956,7 +13956,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -13996,7 +13996,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "rpa",
+        "name": "RPA",
         "type": "하드웨어"
     },
     {
@@ -14024,7 +14024,7 @@
         "type": "하드웨어"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -14088,7 +14088,7 @@
         "type": "운영체제"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -14096,7 +14096,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -14160,7 +14160,7 @@
         "type": "인프라"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -14176,11 +14176,11 @@
         "type": "운영체제"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -14216,7 +14216,7 @@
         "type": "라이브러리"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -14312,7 +14312,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "pytorch",
+        "name": "PyTorch",
         "type": "라이브러리"
     },
     {
@@ -14368,7 +14368,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -14384,11 +14384,11 @@
         "type": "개발 도구"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "개발 방법론 및 프로세스"
     },
     {
@@ -14444,7 +14444,7 @@
         "type": "인프라"
     },
     {
-        "name": "blockchain",
+        "name": "Blockchain",
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
@@ -14452,7 +14452,7 @@
         "type": "인프라"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14468,7 +14468,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -14484,7 +14484,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14492,7 +14492,7 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -14528,7 +14528,7 @@
         "type": "인프라"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -14536,7 +14536,7 @@
         "type": "네트워크"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14560,7 +14560,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14592,7 +14592,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14604,7 +14604,7 @@
         "type": "데브옵스"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14612,7 +14612,7 @@
         "type": "운영체제"
     },
     {
-        "name": "Windows",
+        "name": "windows",
         "type": "운영체제"
     },
     {
@@ -14668,7 +14668,7 @@
         "type": "개발 도구"
     },
     {
-        "name": "orcad",
+        "name": "OrCAD",
         "type": "개발 도구"
     },
     {
@@ -14680,11 +14680,11 @@
         "type": "하드웨어"
     },
     {
-        "name": "pcb",
+        "name": "PCB",
         "type": "하드웨어"
     },
     {
-        "name": "fw",
+        "name": "FW",
         "type": "하드웨어"
     },
     {
@@ -14712,7 +14712,7 @@
         "type": "프로그래밍 관련 기술 및 개념"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14744,7 +14744,7 @@
         "type": "개발 방법론 및 프로세스"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14760,7 +14760,7 @@
         "type": "네트워크"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -14784,7 +14784,7 @@
         "type": "인공지능 및 블록체인 관련 개념"
     },
     {
-        "name": "embedded",
+        "name": "Embedded",
         "type": "하드웨어"
     },
     {
@@ -14808,7 +14808,7 @@
         "type": "운영체제"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -14960,7 +14960,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -14988,7 +14988,7 @@
         "type": "데이터베이스"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -15008,7 +15008,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -15036,7 +15036,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "rest api",
+        "name": "REST API",
         "type": "인프라"
     },
     {
@@ -15068,7 +15068,7 @@
         "type": "프로그래밍 언어"
     },
     {
-        "name": "network",
+        "name": "Network",
         "type": "네트워크"
     },
     {
@@ -15080,7 +15080,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
@@ -15104,7 +15104,7 @@
         "type": "프레임워크"
     },
     {
-        "name": "opencv",
+        "name": "OpenCV",
         "type": "라이브러리"
     },
     {
