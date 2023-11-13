@@ -56,7 +56,7 @@ def result_view(request) :
     else:
         job_positing_counts = TechStack.objects.filter(companies__sido=selected_sido,
                                                     companies__sigg=selected_sigg,
-                                                    ob_positions__name=selected_job_position,).count()
+                                                    job_positions__name=selected_job_position,).count()
 
     # 선택한 직무에 따른 결과 처리 : 직무별 시각화 그래프
     try:
