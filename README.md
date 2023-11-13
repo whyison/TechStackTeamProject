@@ -64,7 +64,7 @@
 <br>
 
 ## 활용 기술 및 프레임워크
-![Alt text](/images/framework.png)
+![Alt text](image.png)
 
 <br>
 
