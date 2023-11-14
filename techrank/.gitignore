@@ -3,7 +3,7 @@
 
 Visualizations/
 crawling/
-
+staticfiles/
 
 ### Django ###
 *.log
