@@ -90,6 +90,8 @@ html, body {
 /* 화살표 이미지 크기 및 여백 조정 */
 .search select {
     -webkit-appearance: none; /* 웹킷 브라우저에서 기본 스타일 제거 */
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .search button {
